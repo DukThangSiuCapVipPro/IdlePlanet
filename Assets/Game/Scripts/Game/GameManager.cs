@@ -86,6 +86,10 @@ public class GameManager : Singleton<GameManager>
         creatureObj.transform.localPosition = planet.spawnPointsContainer.GetChild(creatureData.id).localPosition;
         creatureObj.transform.localScale = Vector3.one;
 
+        // Make creature stand on planet surface by pointing its up direction away from planet center
+        Vector3 directionFromCenter = (creatureObj.transform.position - planet.transform.position).normalized;
+        creatureObj.transform.up = directionFromCenter;
+
         yield return null;
     }
     IEnumerator LoadUIs()
