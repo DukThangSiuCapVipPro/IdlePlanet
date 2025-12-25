@@ -27,6 +27,9 @@ public class ItemCreature : MonoBehaviour
         buttonBuy.onClick.RemoveAllListeners();
         buttonBuy.onClick.AddListener(OnClickBuy);
 
+        DataManager.Instance.UnsubcribeOnPlayerDataChanged(OnPlayerDataChanged);
+        DataManager.Instance.SubcribeOnPlayerDataChanged(OnPlayerDataChanged);
+
         UpdateUI();
     }
 
@@ -50,6 +53,10 @@ public class ItemCreature : MonoBehaviour
         buttonBuy.interactable = ownedLevel == 0 && enoughDays && DataManager.Instance.GetStarDust() >= creatureData.GetPriceForLevel(0);
         if (!enoughDays)
             txtBuyPrice.text = $"{creatureData.requiredDayNumber - DataManager.Instance.GetTotalDateDifferenceInDays()} days left";
+    }
+    void OnPlayerDataChanged(PlayerData playerData)
+    {
+        UpdateUI();
     }
 
     void OnClickUpgrade()

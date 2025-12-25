@@ -16,7 +16,7 @@ public class GameManager : Singleton<GameManager>
     [Header("UI References")]
     public RectTransform rectUpgradePanel;
     public SmoothButton buttonSwitchUpgradePanel;
-    public ScrollRect scrollRectCreatures;
+    public ScrollUpgradeAdapter scrollCreaturesAdapter;
     public ItemCreature itemCreaturePrefab;
     public SmoothButton buttonSettings;
     public SmoothButton buttonShop;
@@ -91,12 +91,7 @@ public class GameManager : Singleton<GameManager>
     IEnumerator LoadUIs()
     {
         DataManager dataManager = DataManager.Instance;
-        foreach (var creature in dataManager.GetAllCreatures())
-        {
-            ItemCreature itemCreature = Instantiate(itemCreaturePrefab, scrollRectCreatures.content);
-            itemCreature.transform.localScale = Vector3.one;
-            itemCreature.Initialize(creature);
-            yield return null;
-        }
+        scrollCreaturesAdapter.SetItems(dataManager.GetAllCreatures());
+        yield return null;
     }
 }

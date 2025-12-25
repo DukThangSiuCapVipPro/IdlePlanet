@@ -22,6 +22,7 @@ public class DataManager : Singleton<DataManager>
     void Start()
     {
         LoadData();
+        StartCoroutine(GameSecondTick());
     }
     #endregion
 
@@ -74,6 +75,9 @@ public class DataManager : Singleton<DataManager>
     {
         if (playerData.ownedItems.ContainsKey(itemId))
         {
+            BigNumber price = allCreatures[itemId - 1].GetPriceForLevel(playerData.ownedItems[itemId]);
+            if (!SpendStarDust(price))
+                return;
             playerData.ownedItems[itemId]++;
             SaveData();
             CalculateStardustPerSecond();
@@ -93,7 +97,7 @@ public class DataManager : Singleton<DataManager>
     #region Helper Methods
     void CalculateStardustPerSecond()
     {
-        stardustPerSecond = 0;
+        stardustPerSecond = 1;
         foreach (var creature in allCreatures)
         {
             int level = GetOwnedItemLevel(creature.id);
