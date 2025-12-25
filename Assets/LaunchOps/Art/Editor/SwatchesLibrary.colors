@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12323, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: SwatchesLibrary
+  m_EditorClassIdentifier: 
+  m_Presets:
+  - m_Name: 
+    m_Color: {r: 0.76338536, g: 1, b: 0.5803922, a: 1}
+  - m_Name: 
+    m_Color: {r: 0.48894182, g: 0.9339623, b: 0.15419187, a: 1}
+  - m_Name: 
+    m_Color: {r: 0.2978548, g: 0.7735849, b: 0.09122462, a: 1}
+  - m_Name: 
+    m_Color: {r: 0.2971698, g: 1, b: 0.5341673, a: 1}
+  - m_Name: 
+    m_Color: {r: 0.7294118, g: 0.8627451, b: 0.34509805, a: 1}
+  - m_Name: 
+    m_Color: {r: 0.50978726, g: 0.6415094, b: 0.13011748, a: 1}
+  - m_Name: 
+    m_Color: {r: 0.58406013, g: 0.600998, b: 0.990566, a: 1}
+  - m_Name: 
+    m_Color: {r: 0.40784314, g: 0.42745098, b: 0.8784314, a: 1}
+  - m_Name: 
+    m_Color: {r: 0.2917853, g: 0.3106811, b: 0.745283, a: 1}
+  - m_Name: 
+    m_Color: {r: 1, g: 0.6367924, b: 0.6367924, a: 1}
+  - m_Name: 
+    m_Color: {r: 0.92156863, g: 0.3019608, b: 0.29411766, a: 1}
+  - m_Name: 
+    m_Color: {r: 0.8490566, g: 0.20440437, b: 0.19624422, a: 1}
+  - m_Name: 
+    m_Color: {r: 0.6462264, g: 0.8034591, b: 1, a: 1}
+  - m_Name: 
+    m_Color: {r: 0.32941177, g: 0.627451, b: 1, a: 1}
+  - m_Name: 
+    m_Color: {r: 0.18039216, g: 0.5254902, b: 0.87058824, a: 1}
+  - m_Name: 
+    m_Color: {r: 1, g: 0.895718, b: 0.6650944, a: 1}
+  - m_Name: 
+    m_Color: {r: 0.99607843, g: 0.7921569, b: 0.34117648, a: 1}
+  - m_Name: 
+    m_Color: {r: 1, g: 0.62352943, b: 0.2627451, a: 1}
+  - m_Name: 
+    m_Color: {r: 1, g: 0.6979648, b: 0, a: 1}
+  - m_Name: 
+    m_Color: {r: 0.24056602, g: 0.7727585, b: 1, a: 1}
+  - m_Name: 
+    m_Color: {r: 0.1273585, g: 0.56378496, b: 1, a: 1}
+  - m_Name: 
+    m_Color: {r: 0, g: 0.4311701, b: 0.8584906, a: 1}
+  - m_Name: 
+    m_Color: {r: 0.18560877, g: 0.23680155, b: 0.4056604, a: 1}
+  - m_Name: 
+    m_Color: {r: 0.10653258, g: 0.11739278, b: 0.3584906, a: 1}
+  - m_Name: 
+    m_Color: {r: 0.10653258, g: 0.11739278, b: 0.3584906, a: 0.3529412}
+  - m_Name: 
+    m_Color: {r: 0.56817377, g: 0.7181678, b: 0.9056604, a: 1}
+  - m_Name: 
+    m_Color: {r: 0.45817018, g: 0.62351173, b: 0.8301887, a: 1}
+  - m_Name: 
+    m_Color: {r: 0.8349056, g: 0.94736123, b: 1, a: 1}
+  - m_Name: 
+    m_Color: {r: 0.8632076, g: 0.9240042, b: 1, a: 1}

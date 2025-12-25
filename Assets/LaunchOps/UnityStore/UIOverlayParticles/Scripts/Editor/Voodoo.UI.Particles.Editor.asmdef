@@ -1,0 +1,16 @@
+{
+    "name": "Voodoo.UI.Particles.Editor",
+    "references": [
+        "Voodoo.UI.Particles"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": []
+}
