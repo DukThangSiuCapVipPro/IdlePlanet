@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b232db1d2f2ef74b8c803acecaf2298, type: 3}
+  m_Name: 057_UnicornFoal
+  m_EditorClassIdentifier: 
+  id: 57
+  name: Unicorn Foal
+  description: Pure magical horse
+  icon: {fileID: 0}
+  prefab: {fileID: 6903615931560162204, guid: 2b147f59c834c2342a4e8f5f793bfd6d, type: 3}
+  size: 2
+  era: 4
+  basePrice:
+    coefficient: 70.62754595
+    exponent: 3
+  priceScalePerLevel: 1.15
+  baseProductivity:
+    coefficient: 1.5501244650000001
+    exponent: 3
+  productivityScalePerLevel: 1.05
+  requiredCreatures: []
+  requiredDayNumber: 4

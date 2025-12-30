@@ -14,18 +14,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 99
   name: Warp Gate
-  description: Bending space and time
+  description: FTL portal
   icon: {fileID: 0}
   prefab: {fileID: 6903615931560162204, guid: 8c4dadb6703b45546b9eb3c59da00b19, type: 3}
   size: 5
-  era: 5
+  era: 8
   basePrice:
     coefficient: 1.75714255474974
     exponent: 6
-  priceScalePerLevel: 1.12
+  priceScalePerLevel: 1.15
   baseProductivity:
-    coefficient: 154.2621721591
+    coefficient: 38.565543039775
     exponent: 5
-  productivityScalePerLevel: 1.08
+  productivityScalePerLevel: 1.05
   requiredCreatures: []
   requiredDayNumber: 7

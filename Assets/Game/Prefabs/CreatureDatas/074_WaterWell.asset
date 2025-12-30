@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b232db1d2f2ef74b8c803acecaf2298, type: 3}
+  m_Name: 074_WaterWell
+  m_EditorClassIdentifier: 
+  id: 74
+  name: Water Well
+  description: Life-giving source
+  icon: {fileID: 0}
+  prefab: {fileID: 6903615931560162204, guid: 5aae3939a367c35408d7e2cf9666d412, type: 3}
+  size: 3
+  era: 5
+  basePrice:
+    coefficient: 69.58658444189
+    exponent: 4
+  priceScalePerLevel: 1.15
+  baseProductivity:
+    coefficient: 1.5272775734849997
+    exponent: 4
+  productivityScalePerLevel: 1.05
+  requiredCreatures: []
+  requiredDayNumber: 5

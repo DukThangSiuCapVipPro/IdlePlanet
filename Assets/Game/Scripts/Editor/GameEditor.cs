@@ -71,6 +71,7 @@ public class CreatureDataImporter : EditorWindow
         }
 
         string[] lines = File.ReadAllLines(csvPath);
+        int updatedCount = 0;
         int createdCount = 0;
 
         // Skip header line (index 0)
@@ -96,8 +97,31 @@ public class CreatureDataImporter : EditorWindow
                 float productivityScale = float.Parse(values[8], CultureInfo.InvariantCulture);
                 int requiredDayNumber = int.Parse(values[9]);
 
-                // Create ScriptableObject
-                CreatureData creature = ScriptableObject.CreateInstance<CreatureData>();
+                // Find existing asset by ID
+                string[] existingAssets = System.IO.Directory.GetFiles(outputFolder, $"{id:000}_*.asset");
+                CreatureData creature = null;
+
+                if (existingAssets.Length > 0)
+                {
+                    // Update existing asset
+                    string assetPath = existingAssets[0].Replace('\\', '/');
+                    creature = AssetDatabase.LoadAssetAtPath<CreatureData>(assetPath);
+                    if (creature != null)
+                    {
+                        updatedCount++;
+                    }
+                }
+
+                if (creature == null)
+                {
+                    // Create new ScriptableObject if not found
+                    creature = ScriptableObject.CreateInstance<CreatureData>();
+                    string assetPath = $"{outputFolder}/{id:000}_{name.Replace(" ", "")}.asset";
+                    AssetDatabase.CreateAsset(creature, assetPath);
+                    createdCount++;
+                }
+
+                // Update properties
                 creature.id = id;
                 creature.name = name;
                 creature.description = description;
@@ -109,16 +133,13 @@ public class CreatureDataImporter : EditorWindow
                 creature.productivityScalePerLevel = productivityScale;
                 creature.requiredDayNumber = requiredDayNumber;
 
-                // Create asset
-                string assetPath = $"{outputFolder}/{id:000}_{name.Replace(" ", "")}.asset";
-                AssetDatabase.CreateAsset(creature, assetPath);
-                createdCount++;
+                EditorUtility.SetDirty(creature);
 
-                if (createdCount % 10 == 0)
+                if ((updatedCount + createdCount) % 10 == 0)
                 {
                     EditorUtility.DisplayProgressBar("Importing Creatures",
-                        $"Creating creature {createdCount}/{lines.Length - 1}",
-                        (float)createdCount / (lines.Length - 1));
+                        $"Processing creature {updatedCount + createdCount}/{lines.Length - 1}",
+                        (float)(updatedCount + createdCount) / (lines.Length - 1));
                 }
             }
             catch (System.Exception e)
@@ -132,7 +153,7 @@ public class CreatureDataImporter : EditorWindow
         AssetDatabase.Refresh();
 
         EditorUtility.DisplayDialog("Success",
-            $"Successfully imported {createdCount} creatures!\n\nCheck: {outputFolder}",
+            $"Successfully updated {updatedCount} and created {createdCount} creatures!\n\nCheck: {outputFolder}",
             "OK");
     }
 

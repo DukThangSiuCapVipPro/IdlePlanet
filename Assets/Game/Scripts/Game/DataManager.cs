@@ -103,7 +103,7 @@ public class DataManager : Singleton<DataManager>
             int level = GetOwnedItemLevel(creature.id);
             if (level > 0)
             {
-                stardustPerSecond += creature.GetPriceForLevel(level);
+                stardustPerSecond += creature.GetProductivityForLevel(level);
             }
         }
     }

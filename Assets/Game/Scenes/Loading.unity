@@ -344,6 +344,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: f9d6d909c92eacc47aa6c98b3a713e8b, type: 2}
   - {fileID: 11400000, guid: c2ca2cecf1ef0694cb90b2a45003954f, type: 2}
   - {fileID: 11400000, guid: cae64bdda31c26c45ac4bab0eb8ea3a9, type: 2}
+  onPlayerDataChanged:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!4 &478045336
 Transform:
   m_ObjectHideFlags: 0

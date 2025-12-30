@@ -1,101 +1,101 @@
 ID,Name,Description,Size,Era,BasePrice,BaseProductivity,PriceScale,ProductivityScale,RequiredDayNumber
-1,Pebble,A tiny smooth stone,Tiny,Ancient,10,1,1.12,1.08,0
-2,Sand Pile,A small mound of sand,Tiny,Ancient,15,1.5,1.12,1.08,0
-3,Moss Patch,Green moss covering a small area,Tiny,Ancient,22,2,1.12,1.08,0
-4,Mushroom,A simple fungus growing from the ground,Tiny,Ancient,33,3,1.12,1.08,0
-5,Small Rock,A basic rock formation,Small,Ancient,50,4.5,1.12,1.08,0
-6,Crystal Shard,A tiny glowing crystal,Tiny,Ancient,75,7,1.12,1.08,0
-7,Puddle,A small pool of water,Tiny,Ancient,110,10,1.12,1.08,0
-8,Sprout,A tiny plant beginning to grow,Tiny,Ancient,165,15,1.12,1.08,0
-9,Lichen,Hardy organism clinging to rocks,Tiny,Ancient,250,22,1.12,1.08,0
-10,Fern,An ancient plant with delicate leaves,Small,Prehistoric,375,33,1.12,1.08,0
-11,Boulder,A large ancient stone,Medium,Ancient,560,50,1.12,1.08,0
-12,Coral,Beautiful underwater structure,Small,Ancient,840,75,1.12,1.08,0
-13,Seaweed,Aquatic plant swaying in currents,Small,Ancient,1260,110,1.12,1.08,1
-14,Starfish,A five-armed sea creature,Small,Ancient,1890,165,1.12,1.08,1
-15,Cactus,A spiky desert survivor,Small,Ancient,2840,250,1.12,1.08,1
-16,Vine,A climbing plant reaching upward,Tiny,Ancient,4260,375,1.12,1.08,1
-17,Bamboo,Fast-growing stalks,Small,Prehistoric,6390,560,1.12,1.08,1
-18,Butterfly,A colorful flying insect,Small,Ancient,9580,840,1.12,1.08,1
-19,Flower Bush,Colorful blooming flowers,Small,Prehistoric,14370,1260,1.12,1.08,1
-20,Berry Bush,A bush bearing sweet fruit,Small,Prehistoric,21560,1890,1.12,1.08,1
-21,Herb Garden,Fragrant medicinal plants,Small,Prehistoric,32340,2840,1.12,1.08,1
-22,Willow Tree,A graceful weeping tree,Medium,Prehistoric,48500,4260,1.12,1.08,1
-23,Oak Tree,A mighty tree of strength,Medium,Prehistoric,72750,6390,1.12,1.08,1
-24,Rabbit,A fluffy hopping mammal,Small,Prehistoric,109130,9580,1.12,1.08,1
-25,Maple Tree,A tree with brilliant red leaves,Medium,Prehistoric,163700,14370,1.12,1.08,1
-26,Bonsai Tree,A miniature artistic tree,Small,Prehistoric,245550,21560,1.12,1.08,2
-27,Grass Patch,A patch of green grass,Small,Prehistoric,368330,32340,1.12,1.08,2
-28,Lotus Flower,A sacred water blossom,Small,Prehistoric,552490,48500,1.12,1.08,2
-29,Pine Tree,An evergreen conifer,Medium,Prehistoric,828740,72750,1.12,1.08,2
-30,Bird Nest,A cozy home for birds,Small,Prehistoric,1243110,109130,1.12,1.08,2
-31,Cherry Blossom,Beautiful pink flowering tree,Medium,Prehistoric,1864660,163700,1.12,1.08,2
-32,Ancient Tree,A massive old-growth tree,Large,Prehistoric,2797000,245550,1.12,1.08,2
-33,Enchanted Rose,A magical glowing flower,Small,Prehistoric,4195500,368330,1.12,1.08,2
-34,Phoenix Feather,A single feather from a mythical bird,Tiny,Prehistoric,6293250,552490,1.12,1.08,2
-35,Unicorn,A majestic horned creature,Medium,Prehistoric,9439880,828740,1.12,1.08,2
-36,Fairy Ring,A circle of mystical mushrooms,Small,Prehistoric,14159820,1243110,1.12,1.08,2
-37,Dragon Egg,An unhatched legendary beast,Medium,Prehistoric,21239730,1864660,1.12,1.08,2
-38,Griffin,A noble creature of eagle and lion,Large,Prehistoric,31859590,2797000,1.12,1.08,3
-39,Treant,An ancient walking tree,Large,Prehistoric,47789390,4195500,1.12,1.08,3
-40,Mandrake,A magical root that screams,Small,Prehistoric,71684080,6293250,1.12,1.08,3
-41,Phoenix,A bird reborn from flames,Large,Prehistoric,107526120,9439880,1.12,1.08,3
-42,Yggdrasil Sapling,A seedling of the world tree,Medium,Prehistoric,161289180,14159820,1.12,1.08,3
-43,Baby Dragon,A young fire-breathing dragon,Large,Prehistoric,241933770,21239730,1.12,1.08,3
-44,Crystal Golem,A living construct of gemstone,Huge,Prehistoric,362900650,31859590,1.12,1.08,3
-45,Pegasus,A winged horse of legend,Large,Prehistoric,544350980,47789390,1.12,1.08,3
-46,Hydra,A multi-headed serpent,Huge,Prehistoric,816526470,71684080,1.12,1.08,3
-47,Ancient Dragon,A wise and powerful wyrm,Colossal,Prehistoric,1224789700,107526120,1.12,1.08,3
-48,World Tree,A cosmic tree connecting realms,Colossal,Prehistoric,1837184550,161289180,1.12,1.08,3
-49,Stone Circle,An ancient ceremonial site,Medium,Ancient,2755776830,241933770,1.12,1.08,3
-50,Monolith,A mysterious standing stone,Large,Ancient,4133665240,362900650,1.12,1.08,3
-51,Stone Hut,A primitive shelter,Small,Medieval,6200497860,544350980,1.12,1.08,4
-52,Campfire,A warming flame,Small,Medieval,9300746790,816526470,1.12,1.08,4
-53,Water Well,A source of fresh water,Medium,Medieval,13951120190,1224789700,1.12,1.08,4
-54,Wheat Field,Golden grain ready for harvest,Medium,Medieval,20926680280,1837184550,1.12,1.08,4
-55,Windmill,A structure grinding grain,Large,Medieval,31390020420,2755776830,1.12,1.08,4
-56,Horse Stable,Home for trusty steeds,Medium,Medieval,47085030630,4133665240,1.12,1.08,4
-57,Blacksmith Forge,Where metal is shaped,Medium,Medieval,70627545950,6200497860,1.12,1.08,4
-58,Wooden House,A simple dwelling,Medium,Medieval,105941318920,9300746790,1.12,1.08,4
-59,Stone Wall,A defensive barrier,Large,Medieval,158911978380,13951120190,1.12,1.08,4
-60,Market Stall,A place of trade,Medium,Medieval,238367967570,20926680280,1.12,1.08,4
-61,Wizard Tower,A mystical spire of magic,Large,Medieval,357551951360,31390020420,1.12,1.08,4
-62,Church,A place of worship,Large,Medieval,536327927040,47085030630,1.12,1.08,4
-63,Enchanted Fountain,A magical water feature,Medium,Medieval,804491890560,70627545950,1.12,1.08,5
-64,Castle Tower,A fortified structure,Large,Medieval,1206737835840,105941318920,1.12,1.08,5
-65,Alchemy Lab,Where potions are brewed,Medium,Medieval,1810106753760,158911978380,1.12,1.08,5
-66,Castle,A mighty fortress,Huge,Medieval,2715160130640,238367967570,1.12,1.08,5
-67,Cathedral,A grand religious monument,Huge,Medieval,4072740195960,357551951360,1.12,1.08,5
-68,Golem Workshop,Crafting magical servants,Large,Medieval,6109110293940,536327927040,1.12,1.08,5
-69,Town Square,The heart of civilization,Large,Medieval,9163665440910,804491890560,1.12,1.08,5
-70,Harbor,A bustling port,Large,Medieval,13745498161360,1206737835840,1.12,1.08,5
-71,Lighthouse,A guiding beacon,Large,Medieval,20618247242040,1810106753760,1.12,1.08,5
-72,Library,A repository of knowledge,Large,Medieval,30927370863060,2715160130640,1.12,1.08,5
-73,University,A center of learning,Large,Medieval,46391056294590,4072740195960,1.12,1.08,5
-74,Observatory,Studying the heavens,Large,Medieval,69586584441890,6109110293940,1.12,1.08,5
-75,Steam Engine,The birth of industry,Medium,Industrial,104379876662830,9163665440910,1.12,1.08,5
-76,Factory,Mass production facility,Large,Industrial,156569814994250,13745498161360,1.12,1.08,6
-77,Railway Station,Hub of transportation,Large,Industrial,234854722491380,20618247242040,1.12,1.08,6
-78,Coal Mine,Source of energy,Large,Industrial,352282083737060,30927370863060,1.12,1.08,6
-79,Steel Mill,Industrial production,Large,Industrial,528423125605600,46391056294590,1.12,1.08,6
-80,Clock Tower,Marking the passage of time,Large,Industrial,792634688408400,69586584441890,1.12,1.08,6
-81,Bridge,Connecting distant shores,Huge,Industrial,1188952032612600,104379876662830,1.12,1.08,6
-82,Power Plant,Electrifying the world,Large,Industrial,1783428048918900,156569814994250,1.12,1.08,6
-83,Skyscraper,Reaching for the sky,Huge,Modern,2675142073378350,234854722491380,1.12,1.08,6
-84,Airport,Gateway to the world,Huge,Modern,4012713110067520,352282083737060,1.12,1.08,6
-85,Shopping Mall,Temple of commerce,Large,Modern,6019069665101280,528423125605600,1.12,1.08,6
-86,Stadium,Arena of champions,Huge,Modern,9028604497651920,792634688408400,1.12,1.08,6
-87,Theme Park,Land of wonder and joy,Huge,Modern,13542906746477900,1188952032612600,1.12,1.08,6
-88,Nuclear Reactor,Atomic energy source,Large,Modern,20314360119716800,1783428048918900,1.12,1.08,7
-89,Data Center,Hub of information,Large,Modern,30471540179575300,2675142073378350,1.12,1.08,7
-90,Space Telescope,Peering into the cosmos,Large,Modern,45707310269362900,4012713110067520,1.12,1.08,7
-91,Particle Accelerator,Unlocking atomic secrets,Huge,Modern,68560965404044400,6019069665101280,1.12,1.08,7
-92,Quantum Computer,Computing the impossible,Medium,Futuristic,102841448106066600,9028604497651920,1.12,1.08,7
-93,Fusion Reactor,Harnessing star power,Large,Futuristic,154262172159100000,13542906746477900,1.12,1.08,7
-94,Space Elevator,Bridge to the stars,Colossal,Futuristic,231393258238650000,20314360119716800,1.12,1.08,7
-95,Orbital Station,Home among the stars,Huge,Futuristic,347089887357975000,30471540179575300,1.12,1.08,7
-96,Terraforming Station,Reshaping worlds,Huge,Futuristic,520634831036960000,45707310269362900,1.12,1.08,7
-97,Moon Base,Lunar settlement,Huge,Futuristic,780952246555440000,68560965404044400,1.12,1.08,7
-98,Asteroid Mining Rig,Harvesting space resources,Large,Futuristic,1171428369833160000,102841448106066600,1.12,1.08,7
-99,Warp Gate,Bending space and time,Colossal,Futuristic,1757142554749740000,154262172159100000,1.12,1.08,7
-100,Dyson Sphere,Capturing a star's energy,Colossal,Futuristic,2635713832124610000,231393258238650000,1.12,1.08,7
+1,Volcanic Ash,A cloud of hot volcanic particles,Tiny,Primordial,10,0.25,1.15,1.05,0
+2,Lava Pool,A bubbling pool of molten rock,Tiny,Primordial,15,0.375,1.15,1.05,0
+3,Iron Ore,Raw metallic mineral deposit,Tiny,Primordial,22,0.5,1.15,1.05,0
+4,Quartz Crystal,A clear crystalline formation,Tiny,Primordial,33,0.75,1.15,1.05,0
+5,Obsidian Shard,Sharp volcanic glass,Small,Primordial,50,1.125,1.15,1.05,0
+6,Meteorite Fragment,A piece from the cosmos,Tiny,Primordial,75,1.75,1.15,1.05,0
+7,Basalt Rock,Cooled volcanic stone,Tiny,Primordial,110,2.5,1.15,1.05,0
+8,Sulfur Deposit,Yellow crystalline element,Tiny,Primordial,165,3.75,1.15,1.05,0
+9,Granite Boulder,Ancient igneous rock formation,Tiny,Primordial,250,5.5,1.15,1.05,0
+10,Copper Vein,Metallic ore deposit,Small,Primordial,375,8.25,1.15,1.05,0
+11,Magma Chamber,Underground molten rock reservoir,Medium,Primordial,560,12.5,1.15,1.05,0
+12,Geothermal Vent,Steam rising from Earth's heat,Small,Primordial,840,18.75,1.15,1.05,0
+13,Limestone Formation,Sedimentary rock layer,Small,Primordial,1260,27.5,1.15,1.05,1
+14,Diamond Crystal,Compressed carbon gemstone,Small,Primordial,1890,41.25,1.15,1.05,1
+15,Tectonic Plate,Shifting Earth's crust,Small,Primordial,2840,62.5,1.15,1.05,1
+16,Bacteria Colony,Microscopic life cluster,Tiny,Origin,4260,93.75,1.15,1.05,1
+17,Archaea Cell,Ancient single-celled organism,Small,Origin,6390,140,1.15,1.05,1
+18,Algae Bloom,Green photosynthetic mass,Small,Origin,9580,210,1.15,1.05,1
+19,Stromatolite,Layered bacteria formation,Small,Origin,14370,315,1.15,1.05,1
+20,Protozoa Pool,Single-celled hunters,Small,Origin,21560,472.5,1.15,1.05,1
+21,Cyanobacteria Mat,Oxygen-producing microbes,Small,Origin,32340,710,1.15,1.05,1
+22,Lichen Patch,Symbiotic fungus and algae,Medium,Origin,48500,1065,1.15,1.05,1
+23,Moss Carpet,Simple land plant covering,Medium,Origin,72750,1597.5,1.15,1.05,1
+24,Fungal Network,Underground mycelia web,Small,Origin,109130,2395,1.15,1.05,1
+25,Primitive Sponge,First multicellular animal,Medium,Origin,163700,3592.5,1.15,1.05,1
+26,Trilobite,Ancient armored arthropod,Small,Prehistoric,245550,5390,1.15,1.05,2
+27,Fern Grove,Prehistoric plant cluster,Small,Prehistoric,368330,8085,1.15,1.05,2
+28,Ammonite Shell,Spiral-shelled cephalopod,Small,Prehistoric,552490,12125,1.15,1.05,2
+29,Coral Reef,Ancient underwater ecosystem,Medium,Prehistoric,828740,18187.5,1.15,1.05,2
+30,Giant Millipede,Massive prehistoric arthropod,Small,Prehistoric,1243110,27282.5,1.15,1.05,2
+31,Dragonfly Ancestor,Enormous flying insect,Medium,Prehistoric,1864660,40925,1.15,1.05,2
+32,Cycad Tree,Ancient seed plant,Large,Prehistoric,2797000,61387.5,1.15,1.05,2
+33,Pteranodon,Flying reptile of the skies,Small,Prehistoric,4195500,92082.5,1.15,1.05,2
+34,Stegosaurus,Plated herbivore dinosaur,Tiny,Prehistoric,6293250,138122.5,1.15,1.05,2
+35,Velociraptor Pack,Swift hunting dinosaurs,Medium,Prehistoric,9439880,207185,1.15,1.05,2
+36,Triceratops,Three-horned giant,Small,Prehistoric,14159820,310777.5,1.15,1.05,2
+37,Tyrannosaurus Rex,Apex predator king,Medium,Prehistoric,21239730,466165,1.15,1.05,2
+38,Brachiosaurus,Long-necked gentle giant,Large,Prehistoric,31859590,699250,1.15,1.05,3
+39,Woolly Mammoth,Ice age elephant,Large,Prehistoric,47789390,1048875,1.15,1.05,3
+40,Saber-tooth Tiger,Prehistoric predator cat,Small,Prehistoric,71684080,1573312.5,1.15,1.05,3
+41,Magic Mushroom Ring,Portal to fairy realm,Large,FairyTale,107526120,2359970,1.15,1.05,3
+42,Enchanted Rose,Beauty's cursed flower,Medium,FairyTale,161289180,3539955,1.15,1.05,3
+43,Golden Goose,Egg-laying treasure,Large,FairyTale,241933770,5309932.5,1.15,1.05,3
+44,Magic Beans,Seeds reaching the clouds,Huge,FairyTale,362900650,7964897.5,1.15,1.05,3
+45,Gingerbread House,Sweet witch's dwelling,Large,FairyTale,544350980,11947347.5,1.15,1.05,3
+46,Glass Slipper,Cinderella's lost shoe,Huge,FairyTale,816526470,17921020,1.15,1.05,3
+47,Magic Mirror,Truth-telling artifact,Colossal,FairyTale,1224789700,26881530,1.15,1.05,3
+48,Spinning Wheel,Cursed slumber tool,Colossal,FairyTale,1837184550,40322295,1.15,1.05,3
+49,Poisoned Apple,Sleeping death fruit,Medium,FairyTale,2755776830,60483442.5,1.15,1.05,3
+50,Talking Wolf,Cunning forest predator,Large,FairyTale,4133665240,90725162.5,1.15,1.05,3
+51,Seven Dwarfs Mine,Gemstone cavern workshop,Small,FairyTale,6200497860,136087745,1.15,1.05,4
+52,Magic Lamp,Wish-granting vessel,Small,FairyTale,9300746790,204131617.5,1.15,1.05,4
+53,Flying Carpet,Enchanted transport,Medium,FairyTale,13951120190,306197425,1.15,1.05,4
+54,Beanstalk Tower,Giant's cloud castle,Medium,FairyTale,20926680280,459296137.5,1.15,1.05,4
+55,Pumpkin Carriage,Midnight transformation,Large,FairyTale,31390020420,688944207.5,1.15,1.05,4
+56,Baby Dragon,Young fire-breather,Medium,Fantasy,47085030630,1033416310,1.15,1.05,4
+57,Unicorn Foal,Pure magical horse,Medium,Fantasy,70627545950,1550124465,1.15,1.05,4
+58,Phoenix Nest,Rebirth from ashes,Medium,Fantasy,105941318920,2325186697.5,1.15,1.05,4
+59,Griffin Eyrie,Eagle-lion aerie,Large,Fantasy,158911978380,3487780047.5,1.15,1.05,4
+60,Pegasus Stable,Winged horse home,Medium,Fantasy,238367967570,5231670070,1.15,1.05,4
+61,Mandrake Root,Screaming magical plant,Large,Fantasy,357551951360,7847505105,1.15,1.05,4
+62,Treant Grove,Walking ancient trees,Large,Fantasy,536327927040,11771257657.5,1.15,1.05,4
+63,Fairy Village,Miniature magical settlement,Medium,Fantasy,804491890560,17656886487.5,1.15,1.05,5
+64,Wizard Tower,Arcane spire of power,Large,Fantasy,1206737835840,26485329730,1.15,1.05,5
+65,Enchanted Sword,Legendary weapon,Medium,Fantasy,1810106753760,39727994595,1.15,1.05,5
+66,Dragon Hoard,Treasure mountain,Huge,Fantasy,2715160130640,59591991892.5,1.15,1.05,5
+67,Ancient Dragon,Wise immortal wyrm,Huge,Fantasy,4072740195960,89387987840,1.15,1.05,5
+68,Elven City,Graceful forest realm,Large,Fantasy,6109110293940,134081981760,1.15,1.05,5
+69,World Tree Yggdrasil,Cosmic axis connecting realms,Large,Fantasy,9163665440910,201122972640,1.15,1.05,5
+70,Crystal Golem,Living gemstone guardian,Large,Fantasy,13745498161360,301684458960,1.15,1.05,5
+71,Stone Circle,Ancient ritual site,Large,Medieval,20618247242040,452526688440,1.15,1.05,5
+72,Village Hut,Simple dwelling,Large,Medieval,30927370863060,678790032660,1.15,1.05,5
+73,Blacksmith Forge,Metalworking shop,Large,Medieval,46391056294590,1018185048990,1.15,1.05,5
+74,Water Well,Life-giving source,Large,Medieval,69586584441890,1527277573485,1.15,1.05,5
+75,Wheat Field,Golden harvest,Medium,Medieval,104379876662830,2290916360227.5,1.15,1.05,5
+76,Windmill,Grain grinding tower,Large,Medieval,156569814994250,3436374540340,1.15,1.05,6
+77,Stone Castle,Fortified stronghold,Large,Medieval,234854722491380,5154561810510,1.15,1.05,6
+78,Cathedral,Grand worship hall,Large,Medieval,352282083737060,7731842715765,1.15,1.05,6
+79,Market Square,Trading center,Large,Medieval,528423125605600,11597764073647.5,1.15,1.05,6
+80,Aqueduct,Water transport system,Large,Medieval,792634688408400,17396646110472.5,1.15,1.05,6
+81,Steam Engine,Power of industry,Huge,Industrial,1188952032612600,26094969165707.5,1.15,1.05,6
+82,Coal Mine,Energy source pit,Large,Industrial,1783428048918900,39142453748562.5,1.15,1.05,6
+83,Factory,Mass production facility,Huge,Industrial,2675142073378350,58713680622845,1.15,1.05,6
+84,Railway Station,Transportation hub,Huge,Industrial,4012713110067520,88070520934265,1.15,1.05,6
+85,Steel Mill,Metal forging plant,Large,Industrial,6019069665101280,132105781401400,1.15,1.05,6
+86,Clock Tower,Time's monument,Huge,Industrial,9028604497651920,198158672102100,1.15,1.05,6
+87,Telegraph Station,Communication network,Huge,Industrial,13542906746477900,297238008153150,1.15,1.05,6
+88,Steamship Dock,Maritime trade port,Large,Industrial,20314360119716800,445857012229725,1.15,1.05,7
+89,Skyscraper,Towering urban giant,Large,Modern,30471540179575300,668785518344587.5,1.15,1.05,7
+90,Nuclear Reactor,Atomic energy plant,Large,Modern,45707310269362900,1003178277516880,1.15,1.05,7
+91,Computer Mainframe,Digital brain,Huge,Modern,68560965404044400,1504767416275320,1.15,1.05,7
+92,Airport,Global gateway,Medium,Modern,102841448106066600,2257151124412980,1.15,1.05,7
+93,Space Shuttle,Orbital vessel,Large,Modern,154262172159100000,3385726686619475,1.15,1.05,7
+94,Satellite Network,Communication constellation,Large,Modern,231393258238650000,5078590029929200,1.15,1.05,7
+95,Particle Accelerator,Atom smasher,Colossal,Modern,347089887357975000,7617885044893825,1.15,1.05,7
+96,Quantum Computer,Reality calculator,Huge,Futuristic,520634831036960000,11426827567340725,1.15,1.05,7
+97,Fusion Reactor,Star power harnessed,Huge,Futuristic,780952246555440000,17140241351011100,1.15,1.05,7
+98,Orbital Station,Space habitat,Huge,Futuristic,1171428369833160000,25710362026516650,1.15,1.05,7
+99,Warp Gate,FTL portal,Colossal,Futuristic,1757142554749740000,38565543039775000,1.15,1.05,7
+100,Dyson Sphere,Star-enclosing megastructure,Colossal,Futuristic,2635713832124610000,57848314559662500,1.15,1.05,7

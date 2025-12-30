@@ -78,11 +78,14 @@ public enum CreatureSize
 
 public enum CreatureEra
 {
-    Ancient,
-    Prehistoric,
-    Medieval,
-    Industrial,
-    Modern,
-    Futuristic
+    Primordial,     // Earth formation - volcanic, minerals, geology
+    Origin,         // First life - bacteria, algae, simple organisms
+    Prehistoric,    // Ancient life - dinosaurs, prehistoric creatures
+    FairyTale,      // Fairy tale era - enchanted creatures and magical items
+    Fantasy,        // High fantasy - dragons, wizards, mythical beasts
+    Medieval,       // Medieval age - castles, knights, early civilization
+    Industrial,     // Industrial revolution - steam power, factories
+    Modern,         // Modern era - 20th century technology
+    Futuristic      // Future tech - space, quantum, advanced engineering
 }
 

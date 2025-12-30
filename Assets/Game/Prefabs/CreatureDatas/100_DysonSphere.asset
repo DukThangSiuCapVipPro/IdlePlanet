@@ -14,18 +14,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 100
   name: Dyson Sphere
-  description: Capturing a star's energy
+  description: Star-enclosing megastructure
   icon: {fileID: 0}
   prefab: {fileID: 6903615931560162204, guid: 0c2200fd20c3b82489e0ddf4115d032e, type: 3}
   size: 5
-  era: 5
+  era: 8
   basePrice:
     coefficient: 2.6357138321246096
     exponent: 6
-  priceScalePerLevel: 1.12
+  priceScalePerLevel: 1.15
   baseProductivity:
-    coefficient: 231.39325823864996
+    coefficient: 57.84831455966249
     exponent: 5
-  productivityScalePerLevel: 1.08
+  productivityScalePerLevel: 1.05
   requiredCreatures: []
   requiredDayNumber: 7

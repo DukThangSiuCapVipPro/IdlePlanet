@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b232db1d2f2ef74b8c803acecaf2298, type: 3}
+  m_Name: 037_TyrannosaurusRex
+  m_EditorClassIdentifier: 
+  id: 37
+  name: Tyrannosaurus Rex
+  description: Apex predator king
+  icon: {fileID: 0}
+  prefab: {fileID: 6903615931560162204, guid: b50533d121aeb51449ebe29f4578c546, type: 3}
+  size: 2
+  era: 2
+  basePrice:
+    coefficient: 21.239729999999998
+    exponent: 2
+  priceScalePerLevel: 1.15
+  baseProductivity:
+    coefficient: 466.165
+    exponent: 1
+  productivityScalePerLevel: 1.05
+  requiredCreatures: []
+  requiredDayNumber: 2
